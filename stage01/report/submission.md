@@ -1626,3 +1626,10 @@ Aggregate effect sizes across all drugs are modest (the drug-averaged signal is 
 | Molecular flags associate with drug response in a drug-specific manner | Per-drug t-test + volcano plot reveal significant associations invisible in global aggregates |
 
 ---
+
+## Links
+
+- [Full Analysis Report](https://github.com/dioufra/hackbio-team-phenylalanine-methionine/blob/main/stage01/report/GDSC_Analysis_Report.md)
+- [Annotated Notebook](https://github.com/dioufra/hackbio-team-phenylalanine-methionine/blob/main/stage01/notebook/notebook_commented.ipynb)
+
+---
