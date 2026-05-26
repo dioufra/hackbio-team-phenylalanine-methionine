@@ -217,7 +217,7 @@ max         7.978776
 
 </details>
 
-> **Reading the numbers:** `LN_IC50` is the natural logarithm
+> **Reading the numbers:** `LN_IC50` is the natural logarithm of the half-maximal inhibitory concentration. Negative values indicate nanomolar-range potency; values above 5–6 indicate that pharmacologically relevant concentrations may be unachievable in vivo. `AUC` quantifies the integrated dose-response curve (0 = complete growth inhibition across all doses; 1 = no inhibition). `Z_SCORE` normalises each observation against the per-drug population distribution.
 
 ### 2.3 Key Variables of Interest
 
@@ -249,9 +249,6 @@ High standard deviation in LN_IC50 identifies compounds whose activity is cancer
 | Trametinib | 0.47 | **2.30** | MEK inhibitor — highly selective for RAS-pathway-driven cancers |
 
 > **Why variability matters:** A drug with low variability and low LN_IC50 (e.g., Romidepsin, std = 1.03) is a broad-spectrum agent — useful across many cancers. A drug with high variability (e.g., Gemcitabine, std = 2.94) is a precision agent — its clinical value depends entirely on identifying the subpopulation that responds.
-
- of the half-maximal inhibitory concentration. Negative values indicate nanomolar-range potency; values above 5–6 indicate that pharmacologically relevant concentrations may be unachievable in vivo. `AUC` quantifies the integrated dose-response curve (0 = complete growth inhibition across all doses; 1 = no inhibition). `Z_SCORE` normalises each observation against the per-drug population distribution.
-
 
 ---
 
