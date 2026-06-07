@@ -291,6 +291,8 @@ plt.show()
 display(importance_df.head(20))
 ```
 
+![Figure 1: XGBoost Feature Importance by Gain](./figures/figure_14.png)
+
 **Output — Feature Importance by Gain:**
 
 | | Feature | Importance |
@@ -346,6 +348,8 @@ plt.show()
 
 display(perm_df.head(20))
 ```
+
+![Figure 2: Permutation Feature Importance](./figures/figure_15.png)
 
 **Output — Permutation Importance:**
 
